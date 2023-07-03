@@ -17,7 +17,7 @@ const Banner = () => {
   return (
     <section id="banner" className="w-full pt-10 pb-20 flex flex-col lg:flex-row items-center max-w-[1240px] mx-auto justify-center h-full space-y-4 ">
       <div className="w-1/2 flex flex-col gap-10 ">
-        <div className="flex flex-col gap-3 ">
+        <div className="flex flex-col gap-3 w-full">
           <h4 className="text-lg font-normal text-white">
             WELCOME TO MY WORLD
           </h4>

@@ -1,6 +1,6 @@
 import React from "react";
 import profile from '../assets/proflle logo.jpg'
-import resume from '../../public/Abu siddik (4).pdf'
+import resume from '../../public/resume (7).pdf'
 import { FaSortDown } from 'react-icons/fa';
 import {Link, ScrollLink} from "react-scroll";
 
