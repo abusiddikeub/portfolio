@@ -13,10 +13,10 @@ const Features = () => {
             What I do{" "}
           </h1>
           <div>
-            <div class="container">
-              <div class="box">
+            <div className="container">
+              <div className="box">
                 <span></span>
-                <div class="content">
+                <div className="content">
                   <h2>Responsive Web Design</h2>
                   <p>
                     With the increasing use of mobile devices, it's crucial to
@@ -27,9 +27,9 @@ const Features = () => {
                   </p>
                 </div>
               </div>
-              <div class="box">
+              <div className="box">
                 <span></span>
-                <div class="content">
+                <div className="content">
                   <h2>Custom Website Development</h2>
                   <p>
                     I specialize in creating custom websites using the MERN
@@ -40,9 +40,9 @@ const Features = () => {
                   </p>
                 </div>
               </div>
-              <div class="box">
+              <div className="box">
                 <span></span>
-                <div class="content">
+                <div className="content">
                   <h2>Database Integration</h2>
                   <p>
                     I have experience working with databases like MongoDB
@@ -56,8 +56,6 @@ const Features = () => {
             </div>
           </div>
         </div>
-        {/* <div className="w-1/2 px-12 h-80 rounded-lg flex items-center bg-gradient-to-r from-slate-600 to-[#202327] group hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors duration-100 shadow-2xl">
-      </div> */}
       </section>
     </>
   );
