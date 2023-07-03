@@ -1,6 +1,10 @@
 import React from "react";
 import img from "../assets/image.11.jpg";
 import { FaBeer, FaGithub, FaLink } from 'react-icons/fa';
+import best_chef from '../assets/B.Food.jpg';
+import toy_car from '../assets/Toy Car.jpg';
+import yoga from '../assets/Nirvana Yoga.jpg';
+
 
 const Project = () => {
   return (
@@ -17,7 +21,7 @@ const Project = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src="/src/assets/B.Food.jpg"
+                src={best_chef}
                 alt=""
               ></img>
             </div>
@@ -68,7 +72,7 @@ const Project = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src="/src/assets/Toy Car.jpg"
+                src={toy_car}
                 alt=""
               ></img>
             </div>
@@ -106,7 +110,7 @@ const Project = () => {
             <div className="h-96 w-72">
               <img
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
-                src="/src/assets/Nirvana Yoga.jpg"
+                src={yoga}
                 alt=""
               ></img>
             </div>
